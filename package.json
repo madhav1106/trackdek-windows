@@ -1,0 +1,25 @@
+{
+  "name": "trackdek-windows",
+  "version": "1.0.0",
+  "description": "The Trackdek Windows Browser History package provides a seamless integration of the get-windows and electron-browser-history libraries, allowing developers to track the currently active window and fetch browser history with ease.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhav1106/trackdek-windows.git"
+  },
+  "author": "Rao Information Technology",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhav1106/trackdek-windows/issues"
+  },
+  "homepage": "https://github.com/madhav1106/trackdek-windows#readme",
+  "dependencies": {
+    "get-windows": "github:madhav1106/trackdek-get-windows",
+    "bindings": "^1.5.0",
+    "electron-browser-history": "github:madhav1106/trackdek-electron-browser-history",
+    "uuid": "^11.0.3"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "browsersList": [
+    {
+      "title": "Avast Secure Browser"
+    },
+    {
+      "title": "Yandex with voice assistant Alice"
+    },
+    {
+      "title": "Pale Moon web browser"
+    },
+    {
+      "title": "Waterfox"
+    },
+    {
+      "title": "Slimjet"
+    },
+    {
+      "title": "Falkon"
+    },
+    {
+      "title": "Opera GX"
+    },
+    {
+      "title": "Chromium"
+    },
+    {
+      "title": "Epic Privacy"
+    },
+    {
+      "title": "SeaMonkey"
+    },
+    {
+      "title": "Midori"
+    },
+    {
+      "title": "Netscape"
+    },
+    {
+      "title": "Maxthon"
+    },
+    {
+      "title": "UC Browser"
+    },
+    {
+      "title": "Tor Browser"
+    },
+    {
+      "title": "Vivaldi"
+    },
+    {
+      "title": "Internet Explorer"
+    },
+    {
+      "title": "Brave"
+    },
+    {
+      "title": "Opera"
+    },
+    {
+      "title": "Safari"
+    },
+    {
+      "title": "Mozilla Firefox"
+    },
+    {
+      "title": "Microsoft Edge"
+    },
+    {
+      "title": "Firefox"
+    },
+    {
+      "title": "Google Chrome"
+    }
+  ]
+}
