@@ -1,4 +1,4 @@
-const activeWindow = require("get-windows");
+const activeWindow = import("get-windows");
 
 class GetActiveWindow {
     constructor() { }
