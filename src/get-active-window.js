@@ -1,4 +1,4 @@
-const { activeWindow } = await import("get-windows");
+import { activeWindow } from "get-windows";
 
 class GetActiveWindow {
     constructor() { }
