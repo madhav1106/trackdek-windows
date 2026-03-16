@@ -1,9 +1,10 @@
-import browsers from "electron-browser-history/browsers.js";
-import Database from "better-sqlite3";
-import fs from "fs";
-import path from "path";
-import { tmpdir, type } from "os";
-import { v4 as uuidV4 } from "uuid";
+'use strict';
+const browsers = require("electron-browser-history/browsers.js");
+const Database = require("better-sqlite3");
+const fs = require("fs");
+const path = require("path");
+const { tmpdir, type } = require("os");
+const uuidV4 = require("uuid").v4;
 
 class BrowserHistory {
     constructor() { }
@@ -382,4 +383,4 @@ class BrowserHistory {
 
 }
 
-export default BrowserHistory;
+module.exports = BrowserHistory;

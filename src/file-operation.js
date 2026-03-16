@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+const fs = require("fs");
+const path = require("path");
 
 class FileOperation {
     // Define the folder and ensure it exists
@@ -57,4 +57,4 @@ class FileOperation {
 
 }
 
-export default FileOperation;
+module.exports = FileOperation;
