@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The Trackdek Windows Browser History package provides a seamless integration of the get-windows and electron-browser-history libraries, allowing developers to track the currently active window and fetch browser history with ease.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },

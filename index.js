@@ -46,3 +46,4 @@ class GetTrackdekWindow {
     }
 }
 module.exports = GetTrackdekWindow;
+module.exports.default = GetTrackdekWindow;

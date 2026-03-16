@@ -1,4 +1,4 @@
-const BrowserHistory = require("./get-browser-url");
+import BrowserHistory from "./get-browser-url.js";
 
 class GetTrackdekWindowWithActiveWin extends BrowserHistory {
     constructor() {
@@ -100,4 +100,4 @@ class GetTrackdekWindowWithActiveWin extends BrowserHistory {
 
 }
 
-module.exports = GetTrackdekWindowWithActiveWin;
+export default GetTrackdekWindowWithActiveWin;
