@@ -1,7 +1,11 @@
-const GetActiveWindow = require("./src/get-active-window");
-const BrowserHistory = require("./src/get-browser-url");
-const FileOperation = require("./src/file-operation");
-const GetTrackdekWindowWithActiveWin = require("./src/get-trackdek-windows");
+// const GetActiveWindow = require("./src/get-active-window");
+// const BrowserHistory = require("./src/get-browser-url");
+// const FileOperation = require("./src/file-operation");
+// const GetTrackdekWindowWithActiveWin = require("./src/get-trackdek-windows");
+import FileOperation from "./src/file-operation.js";
+import BrowserHistory from "./src/get-browser-url";
+import GetActiveWindow from "./src/get-active-window.js";
+import GetTrackdekWindowWithActiveWin from "./src/get-trackdek-windows.js";
 
 class GetTrackdekWindow {
     fileOperation = new FileOperation();
@@ -45,5 +49,4 @@ class GetTrackdekWindow {
         }
     }
 }
-module.exports = GetTrackdekWindow;
-module.exports.default = GetTrackdekWindow;
+export default GetTrackdekWindow;
