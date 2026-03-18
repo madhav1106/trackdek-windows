@@ -1,7 +1,7 @@
-const GetActiveWindow = require("./src/get-active-window");
-const BrowserHistory = require("./src/get-browser-url");
-const FileOperation = require("./src/file-operation");
-const GetTrackdekWindowWithActiveWin = require("./src/get-trackdek-windows");
+const GetActiveWindow = require("./get-active-window");
+const BrowserHistory = require("./get-browser-url");
+const FileOperation = require("./file-operation");
+const GetTrackdekWindowWithActiveWin = require("./get-trackdek-windows");
 
 class GetTrackdekWindow {
     fileOperation = new FileOperation();
