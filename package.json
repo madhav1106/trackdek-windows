@@ -16,12 +16,10 @@
     "url": "https://github.com/madhav1106/trackdek-windows/issues"
   },
   "homepage": "https://github.com/madhav1106/trackdek-windows#readme",
-  "dependencies": { 
+  "dependencies": {
+    "get-windows": "github:madhav1106/trackdek-get-windows",
     "bindings": "^1.5.0",
     "electron-browser-history": "github:madhav1106/trackdek-electron-browser-history",
     "uuid": "^11.0.3"
-  },
-  "peerDependencies": {
-    "get-windows": "github:madhav1106/trackdek-get-windows"
   }
 }
