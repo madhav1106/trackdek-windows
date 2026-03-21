@@ -1,3 +1,5 @@
+const { activeWindow } = require("get-windows");
+
 class GetActiveWindow {
     constructor() { }
 
@@ -8,7 +10,6 @@ class GetActiveWindow {
      */
     async getActiveWindows() {
         try {
-            const { activeWindow } = await import('get-windows');
             const result = await activeWindow({ screenRecordingPermission: false });
             return result || {}; // Return an empty object if no result
         } catch (error) {
